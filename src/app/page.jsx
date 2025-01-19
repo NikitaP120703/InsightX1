@@ -10,6 +10,7 @@ import Dashboard from '../components/Dashboard';
 import PaperTrading from '../components/PaperTrading';
 import Strategy from '../components/Strategy';
 import News from '../components/News';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   const [currentPage, setCurrentPage] = useState('home');
@@ -46,6 +47,11 @@ export default function Home() {
             <div id="news" className="pt-16">
               <News />
             </div>
+
+            <div id="footer" className="pt-16">
+              <Footer />
+            </div>
+
           </div>
         );
     }
